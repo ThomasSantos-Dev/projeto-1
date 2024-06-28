@@ -1,2 +1,2 @@
-cont m ='mercado pago'
+const m ='mercado pago'
 console.log(m)
