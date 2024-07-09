@@ -14,6 +14,7 @@ programa
    escreva("\nTabuada de "+multiplicador+"\n\n")
 
    enquanto(contador <= 10)
+   
                                  {
    resultado = contador * multiplicador
    escreva(contador+" x "+multiplicador+" = "+resultado+"\n")
