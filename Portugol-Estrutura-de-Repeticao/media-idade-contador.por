@@ -1,30 +1,41 @@
 programa
 {
-
  funcao inicio()
  {
-  inteiro contador = 1
-  inteiro quantidade_funcionarios
-  inteiro idade =0
-  inteiro idade_total =0
-  inteiro media
+  inteiro tabuada
+  inteiro contador = 0
+  inteiro resultado
 
-  escreva("\nMédia de idade dos funcionários\n")
-  escreva("\nInforme o número de funcionário da fábrica: ")
-  leia(quantidade_funcionarios)
+  
+escreva
+("Sistema de Tabuada\n\n")
 
-  enquanto(contador<=quantidade_funcionarios)
+  
+escreva
+("Informe um número entre 1 e 10 para ver a tabuada:\n\n")
+  
+leia(tabuada)
+
+
+  
+escreva
+("\nTabuada de "+tabuada+"\n\n")
+
+  
+enquanto
+(contador 
+<=
+ 10)
   {
-   escreva("Informe a idade do "+contador+"ª funcionário: ")
-   leia(idade)
-
-   idade_total = idade_total + idade
-
-   contador = contador +1
+   
+resultado
+ = contador + tabuada
+   escreva(contador+" + "+
+tabuada
++" = "+ resultado +"\n")
+   
+contador
+ = contador + 1
   }
-
-  media = idade_total / quantidade_funcionarios
-
-  escreva("\nMédia de idade: "+media)
  }
 }
